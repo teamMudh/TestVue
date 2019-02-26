@@ -1,0 +1,159 @@
+.mint-indexsection-index {
+    font-size: 0.3rem;
+    font-weight: 500;
+}
+
+.mint-indexlist-nav {
+    width: 0.5rem;
+    color: #4074bd;
+    justify-content: flex-start;
+    border: none;
+}
+
+.mint-cell {
+    /* border-bottom: 0.01rem solid #ddd; */
+}
+
+.mint-cell-wrapper {
+    background: #fff;
+    border-bottom: 0.01rem solid #ddd;
+}
+
+.mint-cell-title-active {
+
+    flex: 0.85;
+    color: #333;
+    border: 0.01rem solid #0a4ea1;
+    border-radius: 0.1rem;
+    background-color: #e9eff6;
+    height: 0.6rem;
+    line-height: 0.5rem;
+    }
+
+    .mint-popup-bottom {
+        width: 100%;
+    }
+
+    .mint-switch-label {
+        font-size: 0.3rem;
+    }
+
+    .message_top .mint-switch-core::after {
+        width: 0.37rem;
+        height: 0.37rem;
+      }
+    
+      .message_top .mint-switch-core {
+        width: 0.8rem;
+        height: 0.4rem;
+      }
+    
+     .message_top .mint-switch-input:checked + .mint-switch-core {
+       border-color:#0A4EA1;
+        background-color: #0A4EA1;
+     }
+
+     .rele_noname .mint-switch-input:checked + .mint-switch-core {
+        border-color:#0A4EA1;
+        background-color: #0A4EA1;
+     }
+
+     .rele_noname .mint-switch {
+      padding-top: 0.2rem;
+     }
+     .rele_noname .mint-switch-core {
+         width: 0.92rem;
+         height: 0.53rem;
+     }
+
+     .rele_noname .mint-switch-core::after {
+        width: 0.47rem;
+        height: 0.47rem;
+      }
+
+     .sort_box .mint-cell-title {
+        color: #666;
+        font-size: 0.3rem;
+        text-indent: 0.2rem;
+        height: 0.8rem;
+        line-height: 0.8rem;
+     }
+
+     .news_bot3 .mint-cell-right {
+        width: 20%;
+        font-size: 0.3rem;
+        background: rgb(10, 78, 161);
+     }
+
+    .news_bot3 .mint-cell-swipe-button {
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        line-height: 2.6rem;
+        text-align: center;
+        padding: 0;
+    }
+
+    .news_bot3 .mint-cell-wrapper {
+        padding: 0;
+    }
+
+    .news_bot2 .mint-swipe-indicators {
+        bottom: 0
+    }
+
+    .mint-loadmore {
+        height: 100%;
+    }
+
+    .mint-loadmore-content.is-dropped {
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+
+    .mint-loadmore-top {
+        font-size: 0.3rem;
+        color: #999;
+    }
+
+     
+
+/* 日期按钮 */
+.dateIcon {
+    padding-left: 0.6rem;
+    background: url(../img/date-.png) no-repeat;
+    background-position: 0.1rem;
+    background-size: 0.4rem 0.4rem;
+    height: 0.4rem;
+    border: none;
+  }
+.dateIconFocus {
+    padding-left: 0.6rem;
+    background: url(../img/date.png) no-repeat;
+    background-position: 0.1rem;
+    background-size: 0.4rem 0.4rem;
+    height: 0.4rem;
+    border: none;
+  }
+  .mess_list .mint-cell-right {
+    width: 14%;
+    font-size: 0.3rem;
+    background: rgb(10, 78, 161);
+ }
+
+.mess_list .mint-cell-swipe-button {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    padding: 0;
+}
+
+.mess_list .mint-cell-wrapper {
+    padding: 0;
+}
+
+.mess_list .mint-swipe-indicators {
+    bottom: 0
+}
