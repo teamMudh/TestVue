@@ -25,7 +25,7 @@ export default {
           console.log(jsonObj)
           console.log(jsonObj.GNNT.REP.RESULT.TD)
           
-          this.$messagebox('温馨提示', '操作成功');
+          this.$messagebox('温馨提示', '操作777成功');
           
         }).catch(error => {
           this.$messagebox('温馨提示', '网络繁忙，请点击重试');
